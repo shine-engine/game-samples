@@ -14,6 +14,7 @@
             <scene_explorer_item scene_explorer_item_name="Root" scene_explorer_item_text="Root" scene_explorer_item_type="0" scene_explorer_item_expanded="false" scene_explorer_item_parent="NULL"/>
         </scene_explorer>
         <recent_file_list max_recent_file="5">
+            <recent_file name_file="table"/>
         </recent_file_list>
     </editor_settings>
     <plugins/>

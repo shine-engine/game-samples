@@ -10,3 +10,4 @@ set(SH_ROOT_DIR "../Shine" CACHE PATH "Shine root directory")
 
 # some sample games
 add_subdirectory(Demo)
+add_subdirectory(Pong)
