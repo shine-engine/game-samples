@@ -8,6 +8,17 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int)
 int main(int argc, char ** argv)
 #endif
 {
+	//
+	// Set the callbacks
+	ShApplication::SetOnPreInitialize(OnPreInitialize);
+	ShApplication::SetOnPostInitialize(OnPostInitialize);
+	ShApplication::SetOnPreUpdate(OnPreUpdate);
+	ShApplication::SetOnPostUpdate(OnPostUpdate);
+	ShApplication::SetOnPreRelease(OnPreRelease);
+	ShApplication::SetOnPostRelease(OnPostRelease);
+
+	//
+	// Shine Engine display properties
 	ShDisplayProperties displayProperties;
 	
 	displayProperties.m_bLandscape		= true;
