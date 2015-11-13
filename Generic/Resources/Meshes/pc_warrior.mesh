@@ -1,0 +1,43 @@
+<mesh name="pc_warrior">
+    <sub_mesh material_name="pc_warrior" file_name="pc_warrior_000.submesh" />
+    <bone_list>
+        <bone id="0" name="Bip01 Pelvis" type="animation_driven" />
+        <bone id="1" name="Bip01 Spine" type="animation_driven" />
+        <bone id="2" name="Bip01 Spine1" type="animation_driven" />
+        <bone id="3" name="Bip01 Neck" type="animation_driven" />
+        <bone id="4" name="Bip01 Head" type="animation_driven" />
+        <bone id="5" name="Bip01 Ponytail1" type="animation_driven" />
+        <bone id="6" name="Bip01 Ponytail11" type="animation_driven" />
+        <bone id="7" name="Bip01 L Clavicle" type="animation_driven" />
+        <bone id="8" name="Bip01 L UpperArm" type="animation_driven" />
+        <bone id="9" name="Bip01 L Forearm" type="animation_driven" />
+        <bone id="10" name="Bip01 L Hand" type="animation_driven" />
+        <bone id="11" name="Bip01 L Finger0" type="animation_driven" />
+        <bone id="12" name="Bip01 L Finger01" type="animation_driven" />
+        <bone id="13" name="Bip01 L Finger02" type="animation_driven" />
+        <bone id="14" name="Bip01 L Finger1" type="animation_driven" />
+        <bone id="15" name="Bip01 L Finger11" type="animation_driven" />
+        <bone id="16" name="Bip01 L Finger12" type="animation_driven" />
+        <bone id="17" name="Bip01 R Clavicle" type="animation_driven" />
+        <bone id="18" name="Bip01 R UpperArm" type="animation_driven" />
+        <bone id="19" name="Bip01 R Forearm" type="animation_driven" />
+        <bone id="20" name="Bip01 R Hand" type="animation_driven" />
+        <bone id="21" name="Bip01 R Finger0" type="animation_driven" />
+        <bone id="22" name="Bip01 R Finger01" type="animation_driven" />
+        <bone id="23" name="Bip01 R Finger02" type="animation_driven" />
+        <bone id="24" name="Bip01 R Finger1" type="animation_driven" />
+        <bone id="25" name="Bip01 R Finger11" type="animation_driven" />
+        <bone id="26" name="Bip01 R Finger12" type="animation_driven" />
+        <bone id="27" name="Bip01 L Thigh" type="animation_driven" />
+        <bone id="28" name="Bip01 L Calf" type="animation_driven" />
+        <bone id="29" name="Bip01 L Foot" type="animation_driven" />
+        <bone id="30" name="Bip01 L Toe0" type="animation_driven" />
+        <bone id="31" name="Bip01 R Thigh" type="animation_driven" />
+        <bone id="32" name="Bip01 R Calf" type="animation_driven" />
+        <bone id="33" name="Bip01 R Foot" type="animation_driven" />
+        <bone id="34" name="Bip01 R Toe0" type="animation_driven" />
+        <bone id="35" name="Bone02" type="animation_driven" />
+        <bone id="36" name="Bone01" type="animation_driven" />
+    </bone_list>
+    <link_constraint_list />
+</mesh>

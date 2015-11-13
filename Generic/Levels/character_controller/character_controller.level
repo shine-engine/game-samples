@@ -1,0 +1,90 @@
+<level engine_save_ver="1.3.0">
+    <settings>
+        <vertical_fog enabled="false" color_red="0.196078" color_green="0.233333" color_blue="0.266667" start="-100.000000" end="0.000000"/>
+        <directional color_red="0.150000" color_green="0.150000" color_blue="0.150000" color_alpha="1.000000" directional_x="-0.532667" directional_y="-0.631308" directional_z="0.775983"/>
+        <wind enabled="0" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" speed="0.000000"/>
+        <scene_settings ambient_red="0.000000" ambient_green="0.000000" ambient_blue="0.000000" glow_threshold="1.000000" glow_intensity="1.000000" ssao_intensity="0.700000"/>
+        <camera offset_x="-746.000000" offset_y="-993.000000" offset_z="1086.000000"/>
+        <render_if_occluded enabled="true" render_if_occluded_player_mul_color_red="0.700000" render_if_occluded_player_mul_color_green="0.700000" render_if_occluded_player_mul_color_blue="0.700000" render_if_occluded_player_add_color_red="0.000000" render_if_occluded_player_add_color_green="0.000000" render_if_occluded_player_add_color_blue="0.100000" render_if_occluded_enemy_mul_color_red="0.700000" render_if_occluded_enemy_mul_color_green="0.700000" render_if_occluded_enemy_mul_color_blue="0.700000" render_if_occluded_enemy_add_color_red="0.100000" render_if_occluded_enemy_add_color_green="0.000000" render_if_occluded_enemy_add_color_blue="0.000000" render_if_occluded_item_mul_color_red="0.700000" render_if_occluded_item_mul_color_green="0.700000" render_if_occluded_item_mul_color_blue="0.700000" render_if_occluded_item_add_color_red="0.000000" render_if_occluded_item_add_color_green="0.000000" render_if_occluded_item_add_color_blue="0.000000"/>
+    </settings>
+    <preload>
+        <texture_list>
+            <texture name="_envmap_interior_brown.tga"/>
+            <texture name="pc_warrior_color.tga"/>
+            <texture name="pc_warrior_envmsk.tga"/>
+            <texture name="pc_warrior_illu.tga"/>
+            <texture name="pc_warrior_nrm.tga"/>
+            <texture name="pc_warrior_opa.tga"/>
+            <texture name="pc_warrior_spec.tga"/>
+        </texture_list>
+        <animated_texture_list/>
+        <sprite_texture_list>
+            <sprite_texture name="cc.ground.tga"/>
+        </sprite_texture_list>
+        <material_library_list/>
+        <submesh_list>
+            <submesh name="pc_warrior_000"/>
+        </submesh_list>
+        <mesh_list>
+            <mesh name="pc_warrior"/>
+        </mesh_list>
+        <prefab_list/>
+    </preload>
+    <layer_list>
+        <layer name="layer_default" type="3d" show="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" min_x="-2506.450928" min_y="-1988.358276" max_x="2000.000000" max_y="2011.641724"/>
+        <layer name="layer_gui" type="3d" show="true" position_x="0.000000" position_y="0.000000" position_z="0.000000" min_x="0.000000" min_y="0.000000" max_x="0.000000" max_y="0.000000"/>
+    </layer_list>
+    <object_list>
+        <collision_shape_point name="collision_shape_auto.0" position_x="-305.562744" position_y="-596.802124" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="0" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.1" position_x="-480.967682" position_y="53.202217" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="1" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.2" position_x="-469.075897" position_y="144.231277" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="2" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.3" position_x="55.652451" position_y="639.201843" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="3" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.4" position_x="141.868423" position_y="646.313416" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="4" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.5" position_x="740.920776" position_y="395.983521" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="5" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.6" position_x="727.542603" position_y="-601.069031" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="6" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.7" position_x="671.056213" position_y="-663.651550" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="7" parent_point="collision_shape_auto"/>
+        <collision_shape_point name="collision_shape_auto.8" position_x="-257.995209" position_y="-642.316833" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" index="8" parent_point="collision_shape_auto"/>
+        <entity2 name="sprite_cc_ground" position_x="0.000000" position_y="0.000000" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" blinking="false" pivot="center_center" pivot_custom_x="0.500000" pivot_custom_y="0.500000" sprite_library="cc" sprite_name="ground" blend_function="alpha"/>
+        <entity name="entitypc_warrior" position_x="0.000000" position_y="0.000000" position_z="0.000000" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="1.000000" color_b="1.000000" color_a="1.000000" blinking="false" cast_shadow="true" ghost="false" outline="false" render_if_occluded="false" render_if_occluded_not_an_occluder="false" render_if_occluded_mul_color_red="1.000000" render_if_occluded_mul_color_green="1.000000" render_if_occluded_mul_color_blue="1.000000" render_if_occluded_add_color_red="0.000000" render_if_occluded_add_color_green="0.000000" render_if_occluded_add_color_blue="0.000000" mesh="pc_warrior"/>
+        <light name="light_auto" position_x="-506.450897" position_y="11.641700" position_z="209.018204" rotation_x="0.000000" rotation_y="0.000000" rotation_z="0.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" layer="layer_default" show="true" color_r="1.000000" color_g="0.901961" color_b="0.596078" color_a="1.000000" blinking="false" active="1" near="1.000000" far="2000.000000" multiplier="1.000000"/>
+        <collision_shape name="collision_shape_auto" type="none" prohibited="0" closed="1">
+            <point name="collision_shape_auto.0" index="0"/>
+            <point name="collision_shape_auto.1" index="1"/>
+            <point name="collision_shape_auto.2" index="2"/>
+            <point name="collision_shape_auto.3" index="3"/>
+            <point name="collision_shape_auto.4" index="4"/>
+            <point name="collision_shape_auto.5" index="5"/>
+            <point name="collision_shape_auto.6" index="6"/>
+            <point name="collision_shape_auto.7" index="7"/>
+            <point name="collision_shape_auto.8" index="8"/>
+        </collision_shape>
+    </object_list>
+    <editor_settings>
+        <snap_x enabled="false" value="100.000000"/>
+        <snap_y enabled="false" value="100.000000"/>
+        <snap_z enabled="false" value="100.000000"/>
+        <snap_rulers enabled="false" threshold="10.000000"/>
+        <translate_x enabled="true"/>
+        <translate_y enabled="true"/>
+        <translate_z enabled="true"/>
+        <grid enabled="false" position_x="0.000000" position_y="0.000000" position_z="0.000000" size_x="2000.000000" size_y="2000.000000" subdivision_x="1" subdivision_y="1"/>
+        <show_markers enabled="false"/>
+        <camera position_x="-204.368164" position_y="-2563.652832" position_z="1343.381714" target_x="318.578247" target_y="-505.661499" target_z="361.287048" znear="1.000000" zfar="40000.000000" zoom="2.339511" camera_angle_x="0.433210" camera_angle_z="0.248839" type="0" arcball_x="0.000000" arcball_y="-2339.510742" arcball_z="0.000000" camera_up_x="0.000000" camera_up_y="0.000000" camera_up_z="1.000000"/>
+        <scene_explorer scene_explorer_add_folder="Root">
+            <scene_explorer_item scene_explorer_item_name="Root" scene_explorer_item_text="Root" scene_explorer_item_type="0" scene_explorer_item_expanded="true" scene_explorer_item_parent="NULL"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto" scene_explorer_item_text="collision_shape_auto" scene_explorer_item_type="234" scene_explorer_item_expanded="false" scene_explorer_item_parent="Root"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.0" scene_explorer_item_text="collision_shape_auto.0" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.1" scene_explorer_item_text="collision_shape_auto.1" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.2" scene_explorer_item_text="collision_shape_auto.2" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.3" scene_explorer_item_text="collision_shape_auto.3" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.4" scene_explorer_item_text="collision_shape_auto.4" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.5" scene_explorer_item_text="collision_shape_auto.5" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.6" scene_explorer_item_text="collision_shape_auto.6" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.7" scene_explorer_item_text="collision_shape_auto.7" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="collision_shape_auto.8" scene_explorer_item_text="collision_shape_auto.8" scene_explorer_item_type="195" scene_explorer_item_expanded="false" scene_explorer_item_parent="collision_shape_auto"/>
+            <scene_explorer_item scene_explorer_item_name="sprite_cc_ground" scene_explorer_item_text="sprite_cc_ground" scene_explorer_item_type="232" scene_explorer_item_expanded="false" scene_explorer_item_parent="Root"/>
+            <scene_explorer_item scene_explorer_item_name="entitypc_warrior" scene_explorer_item_text="entitypc_warrior" scene_explorer_item_type="232" scene_explorer_item_expanded="false" scene_explorer_item_parent="Root"/>
+            <scene_explorer_item scene_explorer_item_name="light_auto" scene_explorer_item_text="light_auto" scene_explorer_item_type="232" scene_explorer_item_expanded="false" scene_explorer_item_parent="Root"/>
+        </scene_explorer>
+    </editor_settings>
+</level>

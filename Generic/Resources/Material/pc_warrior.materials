@@ -1,0 +1,22 @@
+<material_list>
+    <material name="pc_warrior" effect_file_name="S:\Generic\Resources\Shaders\entity_extended.fx" current_technique="DefaultTechnique">
+        <parameter_list>
+            <parameter name="DiffuseMap" type="bitmap" file_name="pc_warrior_color.tga" />
+            <parameter name="NormalMap" type="bitmap" file_name="pc_warrior_nrm.tga" />
+            <parameter name="SpecularMap" type="bitmap" file_name="pc_warrior_spec.tga" />
+            <parameter name="OpacityMap" type="bitmap" file_name="pc_warrior_opa.tga" />
+            <parameter name="EnvMap" type="bitmap" file_name="_envmap_interior_brown.tga" />
+            <parameter name="EnvMapMask" type="bitmap" file_name="pc_warrior_envmsk.tga" />
+            <parameter name="SelfIllumMap" type="bitmap" file_name="pc_warrior_illu.tga" />
+            <parameter name="DiffuseMapModulator" type="color" red="1.000000" green="1.000000" blue="1.000000" alpha="1.000000" />
+            <parameter name="SpecularMapModulator" type="color" red="0.384314" green="0.384314" blue="0.384314" alpha="1.000000" />
+            <parameter name="SelfIllumMapModulator" type="color" red="0.564706" green="0.564706" blue="0.564706" alpha="1.000000" />
+            <parameter name="SelfIllumColor" type="color" red="0.000000" green="0.000000" blue="0.000000" alpha="1.000000" />
+            <parameter name="Shininess" type="float" value="30.000000" />
+            <parameter name="SpecularLevel" type="float" value="1.000000" />
+            <parameter name="EnvMapFactor" type="float" value="0.500000" />
+            <parameter name="TexCoordOffsetU" type="float" value="0.000000" />
+            <parameter name="TexCoordOffsetV" type="float" value="0.000000" />
+        </parameter_list>
+    </material>
+</material_list>
