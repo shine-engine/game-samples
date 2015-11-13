@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Shine
+Generic/Resources/SpritesTemp/*
+Dx9/*
+_logs/*
