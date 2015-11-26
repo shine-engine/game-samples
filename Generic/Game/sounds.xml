@@ -1,0 +1,8 @@
+<sounds>
+  <sound name="player_warrior_attack_01" max_playback="10" priority="2"/>
+  <sound name="player_warrior_attack_02" max_playback="10" priority="2"/>
+  <sound name="player_warrior_attack_03" max_playback="10" priority="2"/>
+  <sound name="player_warrior_attack_04" max_playback="10" priority="2"/>
+  <sound name="player_warrior_attack_05" max_playback="10" priority="2"/>
+  <sound name="player_warrior_attack_06" max_playback="10" priority="2"/>
+</sounds>
