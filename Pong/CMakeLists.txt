@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.2.1)
 
-project(Pong)
-
 set(SH_ROOT_DIR "../Shine" CACHE PATH "Shine root directory")
 
 include_directories("${SH_ROOT_DIR}/include")
