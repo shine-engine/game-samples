@@ -68,6 +68,8 @@ int secondCard = -1;
 
 float currentStateTime = 0.0f;
 
+CShVector2 ratio(1.0f, 1.0f);
+
 static void shuffle()
 {
 	for (int i = 0; i < PIECES; ++i)
@@ -92,13 +94,16 @@ static void OnTouchDown(int iTouch, float positionX, float positionY)
 {
 	if (0 == iTouch)
 	{
+		positionX *= ratio.m_x;
+		positionY *= ratio.m_y;
+
 		switch (currentState)
 		{
 			case e_state_default:
 			{
 				for (int i = 0; i < PIECES; ++i)
 				{
-					const CShVector2& pos = ShEntity2::GetPosition2(aCards[i].pEntityRecto);
+					CShVector2 pos = ShEntity2::GetPosition2(aCards[i].pEntityRecto);
 					float half_height = ShEntity2::GetHeight(aCards[i].pEntityRecto) * 0.5f;
 					float half_width = ShEntity2::GetWidth(aCards[i].pEntityRecto) * 0.5f;
 
@@ -180,6 +185,9 @@ static void OnTouchUp(int iTouch, float positionX, float positionY)
 {
 	if (0 == iTouch)
 	{
+		positionX *= ratio.m_x;
+		positionY *= ratio.m_y;
+		
 		switch (currentState)
 		{
 		}
@@ -199,9 +207,9 @@ static void OnTouchMove(int iTouch, float positionX, float positionY)
  */
 void OnPreInitialize(void)
 {
-	ShInput::SetOnTouchDown(OnTouchDown);
-	ShInput::SetOnTouchUp(OnTouchUp);
-	ShInput::SetOnTouchMove(OnTouchMove);
+	ShInput::AddOnTouchDown(OnTouchDown);
+	ShInput::AddOnTouchUp(OnTouchUp);
+	ShInput::AddOnTouchMove(OnTouchMove);
 
 	srand(time(NULL));
 }
@@ -227,6 +235,8 @@ void OnPostInitialize(void)
 	ShCamera::SetProjectionOrtho(g_pCamera);
 
 	ShCamera::SetCurrent2D(g_pCamera);
+
+	ratio = CShVector2((256*WIDTH)/(float)ShDisplay::GetWidth(), (256*HEIGHT)/(float)ShDisplay::GetHeight());
 
 	g_pWinEntity = ShEntity2::Find(levelIdentifier, CShIdentifier("sprite_memory_win_001"));
 	SH_ASSERT(shNULL != g_pWinEntity);
