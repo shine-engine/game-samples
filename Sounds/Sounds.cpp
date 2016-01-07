@@ -117,9 +117,9 @@ static void OnTouchMove(int iTouch, float positionX, float positionY)
  */
 void OnPreInitialize(void)
 {
-	ShApplication::SetOnTouchDown(OnTouchDown);
-	ShApplication::SetOnTouchUp(OnTouchUp);
-	ShApplication::SetOnTouchMove(OnTouchMove);
+	ShInput::SetOnTouchDown(OnTouchDown);
+	ShInput::SetOnTouchUp(OnTouchUp);
+	ShInput::SetOnTouchMove(OnTouchMove);
 }
 
 /**
