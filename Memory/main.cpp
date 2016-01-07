@@ -49,7 +49,7 @@ int main(int argc, char ** argv)
 	displayProperties.m_bUsePointLights = false;
 	displayProperties.m_bUseShadows		= false;
 
-	ShDisplay::SetFullScreen();
+	//ShDisplay::SetFullScreen();
 
 #if SH_PC
 	return(ShMain((void*)&hInstance, displayProperties));

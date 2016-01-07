@@ -211,7 +211,7 @@ void OnPreInitialize(void)
  */
 void OnPostInitialize(void)
 {
-	CShIdentifier levelIdentifier("memory_02");
+	CShIdentifier levelIdentifier("memory");
 
 	bool loaded = ShLevel::Load(levelIdentifier);
 	SH_ASSERT(loaded);
